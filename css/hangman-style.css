@@ -1,0 +1,94 @@
+#bottom{
+    display: none;
+}
+
+#ww{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 24px;
+    padding: 0px;
+    gap: 24px;
+    width: 200px;
+    height: 36px;
+    top: 717px;    
+    left: 870px;
+}
+
+#wl{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 24px;
+    padding: 0px;
+    gap: 24px;
+    width: 300px;
+    height: 36px;
+    top: 747px;    
+    left: 840px;
+}
+
+.bottoms{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    
+    position: absolute;
+    left: 525px;
+    top: 800px;    
+}
+
+#playagain{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: inherit;
+    width: 332px;
+    height: 67px;
+    left: 0px;
+
+    background: #0A3871;
+    border-radius: 24px;
+   
+    flex: none;
+    order: 0;
+    flex-grow: 1;    
+}
+
+#playagain:hover{
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+#Exit{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: inherit;
+    width: 332px;
+    height: 67px;
+
+    left: 500px;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;    
+}
+
+#Exit:hover{
+    transition: 1s;
+    transform: scale(1.05);
+}

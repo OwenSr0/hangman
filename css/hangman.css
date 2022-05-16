@@ -1,0 +1,146 @@
+.hangman{
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    left: 800px;
+    top: 148px;
+
+}
+
+#hangman{
+    display: none;
+}
+
+#base{
+    position: absolute;
+width: 350px;
+height: 5px;
+left: -40px;
+top: 400px;
+
+/* Dark blue/dark-blue-300 */
+
+background: #0A3871;
+border-radius: 8px;
+}
+
+#bar1{
+    position: absolute;
+width: 4.5px;
+height: 360px;
+left: 0px;
+top: 43px;
+
+/* Dark blue/dark-blue-300 */
+
+background: #0A3871;
+border-radius: 8px;
+}
+
+#bar2{
+    position: absolute;
+    width: 177.75px;
+    height: 4.5px;
+    left: 0px;
+    top: 40px;
+    
+    /* Dark blue/dark-blue-300 */
+    
+    background: #0A3871;
+    border-radius: 8px;
+}
+
+#bar3{
+    position: absolute;
+    width: 4.5px;
+    height: 49.5px;
+    left: 174px;
+    top: 40px;
+    
+    /* Dark blue/dark-blue-300 */
+    
+    background: #0A3871;
+    border-radius: 8px;    
+}
+
+#head{
+    position: absolute;
+width: 63px;
+height: 63px;
+left: 145px;
+top: 90px;
+background: #0A3871;
+border-radius:50%;
+border: solid 3px white;
+overflow:hidden; /* Evitar que el contenido se visualice fuera del borde*/
+}
+
+#body{
+    position: absolute;
+    width: 6.5px;
+    height: 110px;
+    left: 174px;
+    top: 152px;
+    border-radius: 8px;
+    
+    /* Dark blue/dark-blue-300 */
+    
+    background: #0A3871;    
+}
+
+#larm{
+    position: absolute;
+    width: 4.5px;
+    height: 72px;
+    left: 150px;
+    top: 155px;
+    
+    /* Dark blue/dark-blue-300 */
+    
+    background: #0A3871;
+    border-radius: 8px;
+    transform: rotate(30deg);    
+}
+
+#rarm{
+    position: absolute;
+    width: 4.5px;
+    height: 72px;
+    left: 200px;
+    top: 155px;
+    
+    /* Dark blue/dark-blue-300 */
+    
+    background: #0A3871;
+    border-radius: 8px;
+    transform: matrix(-0.87, 0.5, 0.5, 0.87, 0, 0);    
+}
+
+#lfe{
+    position: absolute;
+    width: 4.5px;
+    height: 72px;
+    left: 154px;
+    top: 260px;
+    
+    /* Dark blue/dark-blue-300 */
+    
+    background: #0A3871;
+    border-radius: 8px;
+    transform: rotate(30deg);
+}
+
+#rfe{
+    position: absolute;
+    width: 4.5px;
+    height: 72px;
+    left: 196px;
+    top: 260px;
+    
+    /* Dark blue/dark-blue-300 */
+    
+    background: #0A3871;
+    border-radius: 8px;
+    transform: matrix(-0.87, 0.5, 0.5, 0.87, 0, 0);    
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.ico" type="img/x-icon">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/hangman.css">
+    <link rel="stylesheet" type="text/css" href="./css/hangman-style.css">
+    <link rel="stylesheet" type="text/css" href="./css/bar.css">
+    <title>Hangman</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1 id="logo"> <img src="./img/logo.png" alt="logo"></h1>
+
+            <h2 id="titulo">HangMan</h2>
+        </div>
+    </header>
+    <main>
+        <section id="starts">
+            <input id="STb" class="start" onclick="ST()" type="submit" value="Start Game">
+            <input id="Anwb" class="start" onclick="Anw()" type="submit" value="Add new words">
+        </section>
+        <section id="addArea" class="AddB">
+            <textarea cols="70" rows="10" id="input" required placeholder="write here"></textarea>
+            <div>
+            <input id="STb2"  class="AddB" onclick="ST()" type="submit" value="Start">
+            <input id="Addb"  class="AddB" onclick="addword()" type="submit" value="Add">
+            <input id="backb" class="AddB" onclick="back()" type="submit" value="Back">
+            </div>
+            <h6 id="warning">Max. of 8 letters</h6>
+        </section>
+        <section>
+            <div class="hangman" id="hangman">
+                <div class="base">
+                    <svg id="base"></svg>
+                    <svg id="bar1"></svg>
+                    <svg class="hangman" id="bar2"></svg>
+                    <svg class="hangman" id="bar3"></svg>
+                </div>
+                <div>
+                    <svg id="head"></svg>
+                    <svg id="body"></svg>
+                    <svg id="larm"></svg>
+                    <svg id="rarm"></svg>
+                    <svg id="lfe"></svg>
+                    <svg id="rfe"></svg>
+                </div>
+            </div>
+            <div id="letters">
+                <div id="ps" class="letter">
+                    <p id="l1">a</p>
+                    <p id="l2">a</p>
+                    <p id="l3">a</p>
+                    <p id="l4">a</p>
+                    <p id="l5">a</p>
+                    <p id="l6">a</p>
+                    <p id="l7">a</p>
+                    <p id="l8">a</p>
+                </div>
+                <div id="bars" class="bl">
+                    <svg id="bl1"></svg>
+                    <svg id="bl2"></svg>
+                    <svg id="bl3"></svg>
+                    <svg id="bl4"></svg>
+                    <svg id="bl5"></svg>
+                    <svg id="bl6"></svg>
+                    <svg id="bl7"></svg>
+                    <svg id="bl8"></svg>
+                </div>
+
+            </div>
+            <div id="bottom">
+                <h6 id="ww"></h6>
+                <h6 id="wl"></h6>
+                <div class="bottoms">
+                    <input id="playagain" onclick="ST()" type="submit" value="Play Again">
+                    <input id="Exit" onclick="exit()" type="submit" value="Exit">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/index.js"></script>
+    <script src="js/addwork.js"></script>	
+    <script src="js/dababase.js"></script>
+    <script src="js/hangman.js"></script>			
+    
+</body>
+</html>

@@ -1,0 +1,156 @@
+*{
+	box-sizing: border-box;
+ }
+
+body{
+    background-color: seashell;
+
+}
+
+header{
+    background: linear-gradient(#444444 , #222222)
+}
+
+#logo{
+    height: 60px;
+    width: 80px;
+    margin-left: 10px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+#titulo{
+    color: #838383;
+    display: inline-flex;
+    font-size: 48px;
+    vertical-align: top;
+    font-family: cursive;
+    text-shadow: 2px 2px #000000;
+}
+
+.start{
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: flex-start;
+    border-radius: 24px;
+    position: absolute;
+    
+}
+
+#STb{
+    padding: 24px;
+    padding-left: 35px;
+    gap: 8px;
+    font-size: 30px;
+    width: 317px;
+    height: 114px;
+    left: 825px;
+    top: 402px;
+    background: #0A3871;
+
+}
+
+#STb:hover{
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+#Anwb{
+    padding: 20px;
+    padding-left: 25px;
+    gap: 24px;
+    font-size: 20px;
+    width: 280px;
+    height: 67px;
+    left: 845px;
+    top: 554px;
+    border: px solid #000;
+
+}
+
+#Anwb{
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+#input{
+position: absolute;
+width: 299px;
+height: 60px;
+left: 800px;
+top: 350px;
+text-align: center;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+border: none;
+
+background-color: seashell;
+color: #333;
+}
+
+#addArea{
+    display: none;
+}
+.AddB{
+    flex-direction: row;
+    align-items: flex-start;  
+    padding: 18px;
+    gap: 8px;
+    font-size: 24px;
+    width: 332px;
+    height: 67px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    border-radius: 24px;
+    position: absolute;
+}
+
+
+#STb2{
+    background: #525252;
+    left: 400px;
+    top: 701px;
+    text-align: center;
+
+}
+
+#STb2:hover{
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+#Addb{
+background-color: #FF3;
+border: 1px solid #0A3871;
+left: 800px;
+top: 701px;
+
+}
+#Addb:hover{
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+#backb{
+border: 1px solid #0A3871;
+left: 1200px;
+top: 701px;
+
+}
+
+#backb:hover{
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+#warning{
+    position: absolute;
+    width: 200px;
+    left: 450px;
+    top: 660px;
+}
