@@ -1,5 +1,6 @@
 const pe = document.querySelector("#ww");
 const pa = document.querySelector("#wl");
+var resets = [word1 = 0, error = 0,we = "", ingame = 0, nw = 0, wu = "", word = ""]
 var word1 = 0;
 var error = 0;
 var we = "";
@@ -8,12 +9,12 @@ var nw = 0;
 var wu = "";
 
 window.addEventListener("keydown", function(event) {
-    if(ingame == 1){
+    if(resets[3] == 1){
         var k = event.key.toUpperCase();
         console.log(event.key);
-        letter(k, word);
-        wu = wu + k;
-        return wu;
+        letter(k, resets[6]);
+        resets[5] = resets[5] + k;
+        resets[5];
     }
     
 });
@@ -24,7 +25,7 @@ function exit(){
     document.getElementById("ps").style.display = "none";
     document.getElementById("bottom").style.display = "none";
     document.getElementById("starts").style.display = "flex";
-     return ingame = 0;
+     return resets[3] = 0;
 }
 
 function ST(){
@@ -32,39 +33,44 @@ function ST(){
     document.getElementById("starts").style.display = "none";
     document.getElementById("addArea").style.display = "none";
     document.getElementById("bottom").style.display = "flex";
-    word = words[rN(0,words.length)]
-    word1 = word
+    resets[6] = words[rN(0,words.length)]
+    resets[2] = "";
+    resets[5] = "";
+    resets[4] = 0;
+    resets[1] = 0;
+    resets[0] = resets[6]
     pe.textContent = "";
+    pa.textContent = "";
     rl();
-    Bard(word.length);
+    Bard(resets[6].length);
     //reseth();
-    ingame = 1;
-    nw = word.length;
+    resets[3] = 1;
+    resets[4] = resets[6].length;
+    return resets[0,1,2,3];
 }
 
 function letter(k, w){
-    if(wu.includes(k)){
+    if(resets[5].includes(k)){
         return alert("word used")
     }
     for(i = 0; i < w.length; i++){
     if(k == w[i]){
         console.log("good")
-        word = w.replaceAll(w[i],k)
-        letters(k,word);
-        return word;
+        resets[6] = w.replaceAll(w[i],k)
+        letters(k,resets[6]);
+        return resets[6];
         }
 
     }
-    if(error == 7){
+    if(resets[1] == 7){
         alert("u lost")
-        pa.textContent = "The word was " + word1;
-        return ingame = 0;
+        pa.textContent = "The word was " + resets[0];
+        return resets[3] = 0;
     }
-    console.log(we+ "a")
-    we = we + k + "   ";
-    pe.textContent = we;
-    error++
-    hangman(error);
+    resets[2] = resets[2] + k + "   ";
+    pe.textContent = resets[2];
+    resets[1]++
+    hangman(resets[1]);
 }
   
 function letters(k,w){
@@ -73,15 +79,15 @@ function letters(k,w){
         if(w[i] == k){
             letterH[i].textContent = k;
             letterH[i].style.display = "flex";
-            nw = nw - 1;
+            resets[4] = resets[4] - 1;
         }
-        if(nw == 0){
+        if(resets[4] == 0){
             alert("u won")
             
-            return ingame = 0;
+            return resets[3] = 0;
         }
     }
-    return word;
+    return resets[6];
 }
 
 function rl(){
