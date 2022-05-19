@@ -64,7 +64,7 @@ border-radius: 8px;
     border-radius: 8px;    
 }
 
-#head{
+#b0{
     position: absolute;
 width: 63px;
 height: 63px;
@@ -76,7 +76,7 @@ border: solid 3px white;
 overflow:hidden; /* Evitar que el contenido se visualice fuera del borde*/
 }
 
-#body{
+#b1{
     position: absolute;
     width: 6.5px;
     height: 110px;
@@ -89,7 +89,7 @@ overflow:hidden; /* Evitar que el contenido se visualice fuera del borde*/
     background: #0A3871;    
 }
 
-#larm{
+#b2{
     position: absolute;
     width: 4.5px;
     height: 72px;
@@ -103,7 +103,7 @@ overflow:hidden; /* Evitar que el contenido se visualice fuera del borde*/
     transform: rotate(30deg);    
 }
 
-#rarm{
+#b3{
     position: absolute;
     width: 4.5px;
     height: 72px;
@@ -117,7 +117,7 @@ overflow:hidden; /* Evitar que el contenido se visualice fuera del borde*/
     transform: matrix(-0.87, 0.5, 0.5, 0.87, 0, 0);    
 }
 
-#lfe{
+#b4{
     position: absolute;
     width: 4.5px;
     height: 72px;
@@ -131,7 +131,7 @@ overflow:hidden; /* Evitar que el contenido se visualice fuera del borde*/
     transform: rotate(30deg);
 }
 
-#rfe{
+#b5{
     position: absolute;
     width: 4.5px;
     height: 72px;

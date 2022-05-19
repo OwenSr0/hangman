@@ -2,7 +2,12 @@
 	box-sizing: border-box;
  }
 
+html{
+    height: 100%;
+}
+
 body{
+    height: 100%;
     background-color: seashell;
 
 }
@@ -12,42 +17,54 @@ header{
 }
 
 #logo{
-    height: 60px;
-    width: 80px;
-    margin-left: 10px;
-    display: inline-flex;
+    height: 10%;
+    width: 4%;
+    margin-left:2%;
+    display: inline;
     justify-content: center;
 }
 
+
 #titulo{
+    display: block;
     color: #838383;
+    margin-left:0.5%;
     display: inline-flex;
-    font-size: 48px;
+    font-size: 300%;
     vertical-align: top;
     font-family: cursive;
     text-shadow: 2px 2px #000000;
 }
 
-.start{
-    box-sizing: border-box;
-    flex-direction: row;
-    align-items: flex-start;
-    border-radius: 24px;
-    position: absolute;
+main{
+    height: 90%;
+}
+
+.starts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+
+}
+
+
+#STb,#Anwb{
+    display: flex;
+    border-radius: 0.5em;
+    text-shadow: 2px 2px #000000;
+
     
 }
 
 #STb{
-    padding: 24px;
-    padding-left: 35px;
-    gap: 8px;
-    font-size: 30px;
-    width: 317px;
-    height: 114px;
-    left: 825px;
-    top: 402px;
+    justify-content: center;
+    padding: 2%;
+    gap: 0.5;
+    font-size: 5vw;
     background: #0A3871;
-
+    margin: 1%;
 }
 
 #STb:hover{
@@ -56,19 +73,16 @@ header{
 }
 
 #Anwb{
-    padding: 20px;
-    padding-left: 25px;
-    gap: 24px;
-    font-size: 20px;
-    width: 280px;
-    height: 67px;
-    left: 845px;
-    top: 554px;
+    justify-content: center;
+    padding: 1%;
+    gap: 0.5;
+    font-size: 3.5vw;
+    margin: 1%;
     border: px solid #000;
 
 }
 
-#Anwb{
+#Anwb:hover{
     transition: 1s;
     transform: scale(1.05);
 }
@@ -153,4 +167,25 @@ top: 701px;
     width: 200px;
     left: 450px;
     top: 660px;
+}
+
+footer {
+    background-color: black;
+    position: absolute;
+    font-size: 100%;
+    bottom: 0;
+    width: 100%;
+    color: white;
+  }
+
+#footer{
+
+    display: flex;
+    justify-content: center;
+    margin: 0.9%;
+    color: white;
+}
+
+#a1,#a2{
+    color: white;
 }

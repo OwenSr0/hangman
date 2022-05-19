@@ -26,11 +26,35 @@ top: 680px;
 
 }
 
-#l1{
+#l0{
     position: absolute;
     width: 80px;
     height: 72px;
     left: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    text-align: center;
+}
+
+
+
+#bl0{
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    left: 0px;
+    background: #0A3871;
+    border-radius: 8px;    
+}
+
+#l1{
+    position: absolute;
+    width: 80px;
+    height: 72px;
+    left: 100px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -45,16 +69,16 @@ top: 680px;
     position: absolute;
     width: 80px;
     height: 4px;
-    left: 0px;
+    left: 100px;
     background: #0A3871;
-    border-radius: 8px;    
+    border-radius: 8px;  
 }
 
 #l2{
     position: absolute;
     width: 80px;
     height: 72px;
-    left: 100px;
+    left: 200px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -69,16 +93,16 @@ top: 680px;
     position: absolute;
     width: 80px;
     height: 4px;
-    left: 100px;
+    left: 200px;
     background: #0A3871;
-    border-radius: 8px;  
+    border-radius: 8px;    
 }
 
 #l3{
     position: absolute;
     width: 80px;
     height: 72px;
-    left: 200px;
+    left: 300px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -93,36 +117,12 @@ top: 680px;
     position: absolute;
     width: 80px;
     height: 4px;
-    left: 200px;
+    left: 300px;
     background: #0A3871;
     border-radius: 8px;    
 }
 
 #l4{
-    position: absolute;
-    width: 80px;
-    height: 72px;
-    left: 300px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 150%;
-    text-align: center;
-}
-
-
-
-#bl4{
-    position: absolute;
-    width: 80px;
-    height: 4px;
-    left: 300px;
-    background: #0A3871;
-    border-radius: 8px;    
-}
-
-#l5{
     position: absolute;
     width: 80px;
     height: 72px;
@@ -137,7 +137,7 @@ top: 680px;
 
 
 
-#bl5{
+#bl4{
     position: absolute;
     width: 80px;
     height: 4px;
@@ -146,11 +146,35 @@ top: 680px;
     border-radius: 8px;   
 }
 
-#l6{
+#l5{
     position: absolute;
     width: 80px;
     height: 72px;
     left: 500px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    text-align: center;
+}
+
+
+
+#bl5{
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    left: 500px;
+    background: #0A3871;
+    border-radius: 8px;  
+}
+
+#l6{
+    position: absolute;
+    width: 80px;
+    height: 72px;
+    left: 600px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -165,36 +189,12 @@ top: 680px;
     position: absolute;
     width: 80px;
     height: 4px;
-    left: 500px;
-    background: #0A3871;
-    border-radius: 8px;  
-}
-
-#l7{
-    position: absolute;
-    width: 80px;
-    height: 72px;
-    left: 600px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 150%;
-    text-align: center;
-}
-
-
-
-#bl7{
-    position: absolute;
-    width: 80px;
-    height: 4px;
     left: 600px;
     background: #0A3871;
     border-radius: 8px;    
 }
 
-#l8{
+#l7{
     position: absolute;
     width: 80px;
     height: 72px;
@@ -209,7 +209,7 @@ top: 680px;
 
 
 
-#bl8{
+#bl7{
     position: absolute;
     width: 80px;
     height: 4px;

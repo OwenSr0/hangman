@@ -1,0 +1,20 @@
+@media  only screen and (max-width: 599px) {
+    #STb{
+        justify-content: center;
+        padding: 2%;
+        gap: 0.5;
+        font-size: 11vw;
+        background: #0A3871;
+        margin: 1%;
+    }
+
+    #Anwb{
+        justify-content: center;
+        padding: 1%;
+        gap: 0.5;
+        font-size: 7vw;
+        margin: 1%;
+        border: px solid #000;
+    
+    }
+}

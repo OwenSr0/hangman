@@ -7,6 +7,7 @@
     <link rel="icon" href="icon.ico" type="img/x-icon">
     <link rel="stylesheet" type="text/css" href="./css/reset.css">
     <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/index-media.css">
     <link rel="stylesheet" type="text/css" href="./css/hangman.css">
     <link rel="stylesheet" type="text/css" href="./css/hangman-style.css">
     <link rel="stylesheet" type="text/css" href="./css/bar.css">
@@ -15,16 +16,16 @@
 <body>
     <header>
         <div class="header">
-            <h1 id="logo"> <img src="./img/logo.png" alt="logo"></h1>
+            <img id="logo" src="./img/logo.png" alt="logo">
 
-            <h2 id="titulo">HangMan</h2>
+            <p id="titulo">HangMan</p>
         </div>
     </header>
     <main>
-        <section id="starts">
-            <input id="STb" class="start" onclick="ST()" type="submit" value="Start Game">
-            <input id="Anwb" class="start" onclick="Anw()" type="submit" value="Add new words">
-        </section>
+        <div class="starts" id="starts">
+            <input id="STb" onclick="ST()" type="submit" value="Start Game">
+            <input id="Anwb" onclick="Anw()" type="submit" value="Add new words">
+        </div>
         <section id="addArea" class="AddB">
             <textarea cols="70" rows="10" id="input" required placeholder="write here"></textarea>
             <div>
@@ -43,16 +44,17 @@
                     <svg class="hangman" id="bar3"></svg>
                 </div>
                 <div>
-                    <svg id="head"></svg>
-                    <svg id="body"></svg>
-                    <svg id="larm"></svg>
-                    <svg id="rarm"></svg>
-                    <svg id="lfe"></svg>
-                    <svg id="rfe"></svg>
+                    <svg id="b0"></svg>
+                    <svg id="b1"></svg>
+                    <svg id="b2"></svg>
+                    <svg id="b3"></svg>
+                    <svg id="b4"></svg>
+                    <svg id="b5"></svg>
                 </div>
             </div>
             <div id="letters">
                 <div id="ps" class="letter">
+                    <p id="l0">a</p>
                     <p id="l1">a</p>
                     <p id="l2">a</p>
                     <p id="l3">a</p>
@@ -60,9 +62,9 @@
                     <p id="l5">a</p>
                     <p id="l6">a</p>
                     <p id="l7">a</p>
-                    <p id="l8">a</p>
                 </div>
                 <div id="bars" class="bl">
+                    <svg id="bl0"></svg>
                     <svg id="bl1"></svg>
                     <svg id="bl2"></svg>
                     <svg id="bl3"></svg>
@@ -70,7 +72,6 @@
                     <svg id="bl5"></svg>
                     <svg id="bl6"></svg>
                     <svg id="bl7"></svg>
-                    <svg id="bl8"></svg>
                 </div>
 
             </div>
@@ -85,6 +86,14 @@
         </section>
 
     </main>
+    <footer>
+        <span id="footer">
+            By OwenB &copy; 2022 ㅤ| ㅤ
+                <a id="a1" target="_blank" href="https://github.com/OwenSr0">GitHub</a>
+                ㅤ|ㅤ 
+                <a id="a2" target="_blank" href="https://www.linkedin.com/in/owen-sanchez-7bb1991a9/">LinkedIn</a> 
+        </span>
+    </footer>
 
     <script src="js/index.js"></script>
     <script src="js/addwork.js"></script>	
