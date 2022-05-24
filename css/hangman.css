@@ -1,11 +1,16 @@
-.hangman{
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    position: absolute;
-    left: 800px;
-    top: 148px;
 
+.hangman{
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    height: 360px;
+    width: 100%;
+}
+
+.boxh{
+    position: fixed;
+    height: 360px;
+    width: 350px;
 }
 
 #hangman{
@@ -16,7 +21,7 @@
     position: absolute;
 width: 350px;
 height: 5px;
-left: -40px;
+left: 0px;
 top: 400px;
 
 /* Dark blue/dark-blue-300 */
@@ -29,7 +34,7 @@ border-radius: 8px;
     position: absolute;
 width: 4.5px;
 height: 360px;
-left: 0px;
+left: 40px;
 top: 43px;
 
 /* Dark blue/dark-blue-300 */
@@ -42,7 +47,7 @@ border-radius: 8px;
     position: absolute;
     width: 177.75px;
     height: 4.5px;
-    left: 0px;
+    left: 40px;
     top: 40px;
     
     /* Dark blue/dark-blue-300 */
@@ -55,7 +60,7 @@ border-radius: 8px;
     position: absolute;
     width: 4.5px;
     height: 49.5px;
-    left: 174px;
+    left: 214px;
     top: 40px;
     
     /* Dark blue/dark-blue-300 */
@@ -68,7 +73,7 @@ border-radius: 8px;
     position: absolute;
 width: 63px;
 height: 63px;
-left: 145px;
+left: 185px;
 top: 90px;
 background: #0A3871;
 border-radius:50%;
@@ -80,7 +85,7 @@ overflow:hidden; /* Evitar que el contenido se visualice fuera del borde*/
     position: absolute;
     width: 6.5px;
     height: 110px;
-    left: 174px;
+    left: 214px;
     top: 152px;
     border-radius: 8px;
     
@@ -93,7 +98,7 @@ overflow:hidden; /* Evitar que el contenido se visualice fuera del borde*/
     position: absolute;
     width: 4.5px;
     height: 72px;
-    left: 150px;
+    left: 190px;
     top: 155px;
     
     /* Dark blue/dark-blue-300 */
@@ -107,7 +112,7 @@ overflow:hidden; /* Evitar que el contenido se visualice fuera del borde*/
     position: absolute;
     width: 4.5px;
     height: 72px;
-    left: 200px;
+    left: 240px;
     top: 155px;
     
     /* Dark blue/dark-blue-300 */
@@ -121,7 +126,7 @@ overflow:hidden; /* Evitar que el contenido se visualice fuera del borde*/
     position: absolute;
     width: 4.5px;
     height: 72px;
-    left: 154px;
+    left: 194px;
     top: 260px;
     
     /* Dark blue/dark-blue-300 */
@@ -135,7 +140,7 @@ overflow:hidden; /* Evitar que el contenido se visualice fuera del borde*/
     position: absolute;
     width: 4.5px;
     height: 72px;
-    left: 196px;
+    left: 236px;
     top: 260px;
     
     /* Dark blue/dark-blue-300 */
