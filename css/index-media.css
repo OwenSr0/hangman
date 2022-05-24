@@ -15,6 +15,53 @@
         font-size: 7vw;
         margin: 1%;
         border: px solid #000;
-    
     }
-}
+    .addword{
+        display: flex;
+        height: 60%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #input{
+        width: 20%;
+        height: 10%;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4vw;
+        line-height: 150%;
+        border: none;
+        background-color: seashell;
+        color: #333;
+        }
+    .addarea{
+        max-height: none;
+    }
+    .divaddarea{
+        display: flex;
+        justify-content: center;
+        margin-right: 5%;
+    }
+    .addarea{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center
+    }
+    #STb2,#Addb,#backb{
+        border-radius: 20px;
+        padding: 0.5vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        gap: 0.5;
+        font-size: 10vw;
+        margin: 1%;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+    #warning{
+        font-size: 2.5vw;
+    }
+}    

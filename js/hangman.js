@@ -18,7 +18,7 @@ function exit(){
     document.getElementById("bars").style.display = "none";
     document.getElementById("ps").style.display = "none";
     document.getElementById("bottom").style.display = "none";
-    document.getElementById("starts").style.display = "block";
+    document.getElementById("starts").style.display = "flex";
      return resets[3] = 0;
 }
 

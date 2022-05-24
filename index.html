@@ -22,18 +22,24 @@
         </div>
     </header>
     <main>
-        <div class="starts" id="starts">
+        <div class="starts" id="starts">    
             <input id="STb" onclick="ST()" type="submit" value="Start Game">
             <input id="Anwb" onclick="Anw()" type="submit" value="Add new words">
         </div>
         <section id="addArea" class="AddB">
-            <textarea cols="70" rows="10" id="input" required placeholder="write here"></textarea>
-            <div>
-            <input id="STb2"  class="AddB" onclick="ST()" type="submit" value="Start">
-            <input id="Addb"  class="AddB" onclick="addword()" type="submit" value="Add">
-            <input id="backb" class="AddB" onclick="back()" type="submit" value="Back">
+            <div class="addword">
+                <textarea cols="70" rows="10" id="input" required placeholder="write here"></textarea>
             </div>
-            <h6 id="warning">Max. of 8 letters</h6>
+            <div class="divaddarea"><h6 id="warning">Max. of 8 letters</h6></div>
+            <div class="addarea">
+
+                <input id="STb2"  class="AddB" onclick="ST()" type="submit" value="Start">
+                <input id="Addb"  class="AddB" onclick="addword()" type="submit" value="Add">
+                <input id="backb" class="AddB" onclick="back()" type="submit" value="Back">
+            </div>
+            <div>
+
+            </div>
         </section>
         <section>
             <div class="hangman" id="hangman">
@@ -54,14 +60,14 @@
             </div>
             <div id="letters">
                 <div id="ps" class="letter">
-                    <p id="l0">a</p>
-                    <p id="l1">a</p>
-                    <p id="l2">a</p>
-                    <p id="l3">a</p>
-                    <p id="l4">a</p>
-                    <p id="l5">a</p>
-                    <p id="l6">a</p>
-                    <p id="l7">a</p>
+                    <p id="l0"></p>
+                    <p id="l1"></p>
+                    <p id="l2"></p>
+                    <p id="l3"></p>
+                    <p id="l4"></p>
+                    <p id="l5"></p>
+                    <p id="l6"></p>
+                    <p id="l7"></p>
                 </div>
                 <div id="bars" class="bl">
                     <svg id="bl0"></svg>
