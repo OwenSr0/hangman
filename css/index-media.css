@@ -64,4 +64,19 @@
     #warning{
         font-size: 2.5vw;
     }
-}    
+    
+    #keys{
+        display: flex;
+        gap: 8px;
+        height: 6vw;
+        width: 6vw;
+        font-size: 4vw;
+        background: #0A3871;
+        border-radius: 20px;
+    }
+}
+@media  only screen and (min-width: 600px) { 
+    #keys{
+        display: none;
+        }
+}   

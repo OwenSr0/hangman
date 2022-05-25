@@ -8,10 +8,15 @@ window.addEventListener("keydown", function(event) {
         console.log(event.key);
         letter(k, resets[6]);
         resets[5] = resets[5] + k;
-        resets[5];
+         return resets[5];
     }
-    
 });
+
+function LT(k){
+    letter(k, resets[6]);
+    resets[5] = resets[5] + k;
+    return resets[5];
+}
 
 function exit(){
     document.getElementById("hangman").style.display = "none";
@@ -23,9 +28,10 @@ function exit(){
 }
 
 function ST(){
-    document.getElementById("hangman").style.display = "none";
     document.getElementById("starts").style.display = "none";
     document.getElementById("addArea").style.display = "none";
+    document.getElementById("ps").style.display = "flex";
+    document.getElementById("hangman").style.display = "flex";
     document.getElementById("bottom").style.display = "flex";
     resets[6] = words[rN(0,words.length)]
     resets[2] = "";
@@ -39,7 +45,16 @@ function ST(){
     Bard(resets[6].length);
     resets[3] = 1;
     resets[4] = resets[6].length;
+    ps(resets[4])
     return resets[0,1,2,3];
+}
+
+function ps(n){
+    for(var i = 0; i < n; i++){
+        document.getElementById("l"+i).textContent = "";
+        document.getElementById("l"+i).style.display = "flex";
+        console.log(n)
+    }
 }
 
 function letter(k, w){
@@ -63,7 +78,7 @@ function letter(k, w){
     pe.textContent = resets[2];
     resets[1]++
     hangman(resets[1]);
-    
+
     return resets[1];
 }
   
@@ -91,7 +106,10 @@ function rl(){
 }
 
 function hangman(e){
-    document.getElementById("hangman").style.display = "flex";
+    document.getElementById("base").style.display = "flex";
+    document.getElementById("bar1").style.display = "flex";
+    document.getElementById("bar2").style.display = "flex";
+    document.getElementById("bar3").style.display = "flex";
     for(i = 0; i < 6; i++){
         if(i < e){
             document.getElementById("b"+ i).style.display = "flex"

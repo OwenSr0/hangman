@@ -3,7 +3,7 @@
     display: flex;
     padding: 0px;
     justify-content: center;
-    height: 360px;
+    height: 400px;
     width: 100%;
 }
 
@@ -15,6 +15,10 @@
 
 #hangman{
     display: none;
+}
+
+#base,#bar1,#bar2,#bar3,#b0,#b1,#b2,#b3,#b4,#b5{
+    display:none;
 }
 
 #base{

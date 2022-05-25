@@ -1,40 +1,38 @@
+.letters{
+    display:flex;
+    flex-direction: column;
+}
+
 #bars,#ps{
     display: none;
 }
 
 .letter{
-    flex-direction: column;
-    align-items: center;
     padding: 0px;
     gap: 24px;
-    
-    position: absolute;
-    left: 575px;
-    top: 610px;
     color: #0A3871;  
-    
+    flex-direction: row;
+    justify-content: center;
+}
+#l0,#l1,#l2,#l3,#l4,#l5,#l6,#l7{
+    justify-content: center;
+        font-size: 48px;
 }
 
 .bl{
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 24px;
-position: absolute;
-left: 550px;
-top: 680px;
-
+    display:flex;
+    padding: 0px;
+    gap: 24px;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #l0{
-    position: absolute;
     width: 80px;
     height: 72px;
-    left: 0px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
     line-height: 150%;
     text-align: center;
 }
@@ -42,23 +40,18 @@ top: 680px;
 
 
 #bl0{
-    position: absolute;
     width: 80px;
     height: 4px;
-    left: 0px;
     background: #0A3871;
     border-radius: 8px;    
 }
 
 #l1{
-    position: absolute;
     width: 80px;
     height: 72px;
-    left: 100px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
     line-height: 150%;
     text-align: center;
 }
@@ -66,23 +59,18 @@ top: 680px;
 
 
 #bl1{
-    position: absolute;
     width: 80px;
     height: 4px;
-    left: 100px;
     background: #0A3871;
     border-radius: 8px;  
 }
 
 #l2{
-    position: absolute;
     width: 80px;
     height: 72px;
-    left: 200px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
     line-height: 150%;
     text-align: center;
 }
@@ -90,23 +78,18 @@ top: 680px;
 
 
 #bl2{
-    position: absolute;
     width: 80px;
     height: 4px;
-    left: 200px;
     background: #0A3871;
     border-radius: 8px;    
 }
 
 #l3{
-    position: absolute;
     width: 80px;
     height: 72px;
-    left: 300px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
     line-height: 150%;
     text-align: center;
 }
@@ -114,23 +97,18 @@ top: 680px;
 
 
 #bl3{
-    position: absolute;
     width: 80px;
     height: 4px;
-    left: 300px;
     background: #0A3871;
     border-radius: 8px;    
 }
 
 #l4{
-    position: absolute;
     width: 80px;
     height: 72px;
-    left: 400px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
     line-height: 150%;
     text-align: center; 
 }
@@ -138,23 +116,18 @@ top: 680px;
 
 
 #bl4{
-    position: absolute;
     width: 80px;
     height: 4px;
-    left: 400px;
     background: #0A3871;
     border-radius: 8px;   
 }
 
 #l5{
-    position: absolute;
     width: 80px;
     height: 72px;
-    left: 500px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
     line-height: 150%;
     text-align: center;
 }
@@ -162,23 +135,18 @@ top: 680px;
 
 
 #bl5{
-    position: absolute;
     width: 80px;
     height: 4px;
-    left: 500px;
     background: #0A3871;
     border-radius: 8px;  
 }
 
 #l6{
-    position: absolute;
     width: 80px;
     height: 72px;
-    left: 600px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
     line-height: 150%;
     text-align: center;
 }
@@ -186,23 +154,18 @@ top: 680px;
 
 
 #bl6{
-    position: absolute;
     width: 80px;
     height: 4px;
-    left: 600px;
     background: #0A3871;
     border-radius: 8px;    
 }
 
 #l7{
-    position: absolute;
     width: 80px;
     height: 72px;
-    left: 700px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
     line-height: 150%;
     text-align: center;
 }
@@ -210,10 +173,8 @@ top: 680px;
 
 
 #bl7{
-    position: absolute;
     width: 80px;
     height: 4px;
-    left: 700px;
     background: #0A3871;
     border-radius: 8px;  
 }
