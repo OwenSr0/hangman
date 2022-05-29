@@ -1,7 +1,6 @@
 const pe = document.querySelector("#ww");
-const pa = document.querySelector("#wl");
-var resets = [word1 = 0, error = 0,we = "", ingame = 0, nw = 0, wu = "", word = ""]
-
+var resets = [word1 = 0, error = 0,we = "", ingame = 0, nw = 0, wu = "", word = "", pa = "",]
+resets[7] = document.querySelector("#wl");
 window.addEventListener("keydown", function(event) {
     if(resets[3] == 1){
         var k = event.key.toUpperCase();
@@ -40,7 +39,7 @@ function ST(){
     resets[1] = 0;
     resets[0] = resets[6]
     pe.textContent = "";
-    pa.textContent = "";
+    resets[7].textContent = "";
     rl();
     Bard(resets[6].length);
     resets[3] = 1;
@@ -71,8 +70,9 @@ function letter(k, w){
     }
     if(resets[1] == 6){
         alert("u lost")
-        pa.textContent = "The word was " + resets[0];
-        return resets[3] = 0;
+        resets[7].textContent = "The word was " + resets[0];
+        resets[3] = 0;
+        return resets[3,7];
     }
     resets[2] = resets[2] + k + "   ";
     pe.textContent = resets[2];
