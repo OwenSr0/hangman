@@ -120,6 +120,7 @@ main{
 }
 #STb2,#Addb,#backb{
     max-height: 100%;
+    min-height: 1em;
     border-radius: 20px;
     padding: 0.5vw;
     padding-left: 1vw;
@@ -130,8 +131,6 @@ main{
     margin-left: 3vw;
     margin-right: 3vw;
 }
-
-
 
 #STb2{
     align-content: center;

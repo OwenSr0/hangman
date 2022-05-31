@@ -42,7 +42,7 @@
     .divaddarea{
         display: flex;
         justify-content: center;
-        margin-right: 5%;
+        margin-right: 3%;
     }
     .addarea{
         display: flex;
@@ -53,6 +53,7 @@
     #STb2,#Addb,#backb{
         border-radius: 20px;
         padding: 0.5vw;
+        min-height: 11vw;
         padding-left: 5vw;
         padding-right: 5vw;
         gap: 0.5;

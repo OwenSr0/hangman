@@ -59,6 +59,7 @@
 
 #playagain,#Exit{
     max-width: 20%;
+    min-height: 5vw;
     justify-content: center;
     font-size: 4vw;
 }
